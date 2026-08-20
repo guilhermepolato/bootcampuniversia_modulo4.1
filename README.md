@@ -1,8 +1,9 @@
-# 🌟 Modelagem Dimensional: Star Schema (Foco em Professor)
+# 📊 Projeto 4 – Primeiros Passos com Power BI
+# 🌟 Modelagem Dimensional: Star Schema 
 
 ## 🎯 Objetivo
 
-Este projeto tem como objetivo principal transformar o modelo relacional de uma universidade em um modelo dimensional (Star Schema). O foco analítico está direcionado aos dados do corpo docente, permitindo avaliar as disciplinas ministradas, os cursos associados e os departamentos aos quais os professores pertencem. Conforme as diretrizes do desafio, as informações referentes a alunos e matrículas foram deliberadamente mantidas fora do escopo.
+Este projeto tem por objetivo a criação de um esquema dimensional – star schema – com base no diagrama relacional disponibilizado com Power BI.
 
 ## 🗄️ Modelo Relacional de Origem
 
@@ -47,7 +48,7 @@ A modelagem foi desenvolvida e validada utilizando o **MySQL Workbench**. O proc
 2. A geração automática do diagrama visual através da funcionalidade de engenharia reversa (**File > Import > Reverse Engineer MySQL Create Script**).
 3. A habilitação da opção *"Place imported objects on a diagram"* para a disposição visual das entidades.
 
-## 📈 Resultado Final
+## 📸 Resultado Final
 
 ![Diagrama Star Schema](diagrama_star_schema.png) 
 
@@ -61,3 +62,22 @@ O esquema gerado consolida a tabela fato `Fato_Atuacao_Professor` no centro do d
 ├── star_schema_professor.sql
 └── diagrama_star_schema.png
 ```
+
+## 📚 Sobre o Bootcamp
+
+Este projeto faz parte do **Bootcamp Universia – Primeiros Passos em Power BI**, oferecido pela **DIO (Digital Innovation One)**, cujo objetivo é desenvolver fundamentos de Business Intelligence por meio de atividades práticas utilizando o Microsoft Power BI.
+
+---
+
+## 👨‍💻 Autor
+
+**Guilherme Polato**
+
+Graduado em Análise e Desenvolvimento de Sistemas, com foco em Análise de Dados e Business Intelligence.
+
+---
+
+## ⭐ Considerações Finais
+
+Este repositório representa uma etapa importante da minha evolução na área de Dados. Conforme avanço nos estudos, novos projetos serão adicionados ao meu portfólio, demonstrando a aplicação prática de conceitos de Business Intelligence, modelagem de dados e criação de dashboards com Power BI.
+
