@@ -50,7 +50,7 @@ A modelagem foi desenvolvida e validada utilizando o **MySQL Workbench**. O proc
 
 ## 📸 Resultado Final
 
-![Diagrama Star Schema](diagrama_star_schema.png) 
+![Diagrama Star Schema](diagramastarschema.png) 
 
 O esquema gerado consolida a tabela fato `Fato_Atuacao_Professor` no centro do diagrama, conectando-se diretamente às cinco dimensões periféricas. A total ausência de relacionamentos diretos entre as dimensões (sem normalizações adicionais) atesta a aderência ao formato clássico de estrela (Star Schema).
 
